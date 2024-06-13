@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/1a48c47b52.js" crossorigin="anonymous"></script>
+    <title>Tulsi's Portfolio</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo"><span>T</span>ulsi</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#work" class="nav__link">Work</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+
+                <!-- close button -->
+                <div class="nav__close" id="nav-close">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+
+            <!-- toggle button -->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="container section home" id="home">
+            <img src="image1.jpeg" alt="image 1" class="home__img1">
+            <p class="home__name">Hi, I'm Tulsi 👋</p>
+            <h1 class="home__title">WEB DEVELOPER.</h1>
+            <p class="home__intro">Passionate <strong>Web Developer</strong> skilled in creating dynamic and
+                user-centric websites through proficient coding
+                and innovative design integration</p>
+            <button class="home__reachoutbtn btn"><a href="mailto: tulsipadhiyar212@gmail.com">Reach out</a></button>
+        </section>
+
+        <section class="container section about" id="about">
+            <div class="about__content">
+                <h2 class="about__title">About</h2>
+                <p class="about__description">I'm <span>Tulsi Padhiyar</span>, a dedicated <span>web developer</span> with a passion for creating
+                    stylish and useful online
+                    solutions.</p>
+                <p class="about__description">
+                    With years of experience in HTML, CSS, and JavaScript, I specialize in translating creative concepts into
+                    interactive
+                    websites that captivate users.</p>
+                <p class="about__description"> Driven by curiosity and a love for innovation, I'm constantly seeking new challenges 
+                    to push my boundaries and expand my skill set.</p>
+                <hr class="about__hr">
+                <h3 class="about__subtitle">Skills</h3>
+                <div class="about__ul-container">
+                    <ul class="about__ul list1">
+                        <li class="about__list">HTML</li>
+                        <li class="about__list">CSS</li>
+                        <li class="about__list">JavaScript</li>
+                    </ul>
+                    <ul class="about__ul list2">
+                        <li class="about__list">Cloud Computing</li>
+                        <li class="about__list">Python</li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="about__img">
+                <img src="image2.jpeg" alt="profile image">
+            </div>
+        </section>
+        <section class="work container section" id="work">
+            <h2 class="work__title">Projects</h2>
+
+            <div class="work__container">
+
+                <!-- Project 1 -->
+                <div class="work__img-wrapper work__image1">
+                    <img class="image__project1" src="project1.png" alt="Landing Page website" />
+                </div>
+                <div class="work__project work__content1">
+                    <h3 class="work__project-subtitle">Landing Page</h3>
+                    <p class="work__project-description1">
+                        Created a Responsive Website Landing Page using HTML, CSS, JS.
+                    </p>
+                    <p class="work__project-description2">
+                        It has Interactive navigation menu that changes color or style when scrolled or when hovering
+                        over a menu item. The navigation menu have a fixed position and be visible on all pages.
+                    </p>
+                    <button class="btn work__project-btn"><a href="https://github.com/tulsipadhiyar/PRODIGY_WD_01">Github
+                            Repo</a></button>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="work__project work__content2">
+                    <h3 class="work__project-subtitle">Stopwatch</h3>
+                    <p class="work__project-description1">
+                        Created a stopwatch web application, used HTML, CSS, and JavaScript. HTML is used to structure
+                        the elements of the application.
+                    </p>
+                    <p class="work__project-description2">
+                        By implementing functions for starting, pausing, and resetting the stopwatch, as well as
+                        tracking and displaying lap times.
+                    </p>
+                    <button class="btn work__project-btn"><a href="https://github.com/tulsipadhiyar/PRODIGY_WD_02">Github
+                            Repo</a></button>
+                </div>
+                <div class="work__img-wrapper work__image2">
+                    <img class="image__project2" src="project2.png" alt="Stopwatch website" />
+                </div>
+
+                <!-- Project 3 -->
+                <div class="work__img-wrapper work__image3">
+                    <img class="image__project3" src="project3.png" alt="tic tac toe game website" />
+                </div>
+                <div class="work__project work__content3">
+                    <h3 class="work__project-subtitle">Tic-Tac-Toe Game</h3>
+                    <p class="work__project-description1">
+                        Created a tic-tac-toe web application, using HTML, CSS, and JavaScript.
+                    </p>
+                    <p class="work__project-description2">
+                        By implementing functions to handle user clicks, track game state, and check for winning
+                        conditions ,created an interactive and engaging tic-tac-toe game.
+                    </p>
+                    <button class="btn work__project-btn"><a href="https://github.com/tulsipadhiyar/PRODIGY_WD_03">Github
+                            Repo</a></button>
+                </div>
+                <!-- Project 4 -->
+                <div class="work__project work__content4">
+                    <h3 class="work__project-subtitle">Weather Application</h3>
+                    <p class="work__project-description1">
+                        Created a web page that fetches weather data from a weather API based on the user's location or
+                        a user-inputted location.
+                    </p>
+                    <p class="work__project-description2">
+                        Display the current weather conditions, temperature, and other relevant information.
+                    </p>
+                    <button class="btn work__project-btn"><a href="https://github.com/tulsipadhiyar/PRODIGY_WD_05">Github
+                            Repo</a></button>
+                </div>
+                <div class="work__img-wrapper work__image4">
+                    <img class="image__project4" src="project4.png" alt="weather application website" />
+                </div>
+
+                <!-- Project 5 -->
+                <div class="work__img-wrapper work__image5">
+                    <img class="image__project5" src="project5.jpeg" alt="Cloud based image recognition" />
+                </div>
+                <div class="work__project work__content5">
+                    <h3 class="work__project-subtitle">Cloud Based Image Recognition</h3>
+                    <p class="work__project-description1">
+                        Me and my friend created a cloud based image recognition, using cloud platform (AWS).
+                    </p>
+                    <p class="work__project-description2">
+                        We used various modules & components like s3 bucket, lambda, DynamoDB, API in back-end technologies and 
+                        used ReactJS to build our frontend application.Cloud-based image recognition utilizes cloud computing 
+                        resources to analyze and classify images. Leveraging machine learning algorithms and neural networks, it 
+                        accurately identifies objects, scenes, and patterns within images.                                                       
+                        This is our college mini project.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact container section">
+            <h2 class="contact__title">Get In Contact</h2>
+            <p class="contact__description">
+                Feel free to explore my portfolio to learn more about my work and accomplishments. If you'd like to 
+                collaborate or connect, don't hesitate to reach out!Have a project in mind or just want to connect? 
+                Feel free to reach out! You can contact me via email.
+            </p>
+            <a
+              class="contact__btn btn"
+              href="mailto:tulsipadhiyar212@gmail.com"
+              target="_blank"
+              >React Out</a
+            >
+          </section>
+        </main>
+        <footer class="footer container section">
+          <h3 class="footer__title">~ Tulsi Padhiyar ~</h3>
+        </footer>
+    </main>
+</body>
+
+</html>
